@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="singup" key="{EDF251AB-A7BD-4359-BA02-752179D6681C}" path="singup.js" />
+		<child name="end" key="{C6033FD1-2ED7-4BD5-824B-77FA577B4309}" path="end.js" />
+		<child name="start" key="{BED49D56-D39D-4845-9505-8215C6E25613}" path="start.js" />
+		<child name="login" key="{730E9392-F8FC-488B-8922-46EE1AE01B6F}" path="login.js" />
+		<child name="addProducts" key="{CCA58939-B8C1-41EC-9D9F-E7F34603A615}" path="addProducts.js" />
+		<child name="Place_Order" key="{3C18403E-9AF9-42C5-B93C-5B268C705813}" path="Place_Order.js" />
+		<child name="Cart" key="{77453E42-3BFD-4154-97AA-832155FF871D}" path="Cart.js" />
+		<child name="Logout" key="{929F5750-63FD-472C-A2ED-327E8E561CFF}" path="Logout.js" />
+	</children>
+</Root>

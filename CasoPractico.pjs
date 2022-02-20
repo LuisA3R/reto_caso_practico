@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{56623EBA-85D7-43A9-B408-07FC741B8902}">
+	<children>
+		<child name="CasoPractico" key="{D5F7D0F7-71D5-4C20-B1E2-4D3892AC85F1}" path="CasoPractico\CasoPractico.mds" />
+	</children>
+	<testItems key="{68F1E621-0AB0-4A43-97B0-CEB3FDBF130B}">
+		<children>
+			<testItem key="{D5F7D0F7-71D5-4C20-B1E2-4D3892AC85F1}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{226BE45F-95C9-4265-A515-28C123CF27EA}" />
+	<analysis key="{D96D3BC9-D443-4B66-9AE0-3FCB7C07366F}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

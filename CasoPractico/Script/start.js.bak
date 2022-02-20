@@ -1,0 +1,4 @@
+﻿function star(){
+  let escenario = KeywordTests.flujoFeliz.Variables.Datos.Value("ID");
+  aqTestCase.Begin(escenario);
+}
