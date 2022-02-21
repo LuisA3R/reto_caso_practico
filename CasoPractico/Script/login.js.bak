@@ -1,13 +1,11 @@
 ﻿function login(){
-    //Seccion declarativa
-    //Variable de URL principal:"https//demoblaze.com"
+     //DECLARACION DE VARIABLES
     let url = KeywordTests.flujoFeliz.Variables.Datos.Value("MAIN_URL");
-    //Variable del nombre de usuario
     let user = KeywordTests.flujoFeliz.Variables.Datos.Value("USERNAME");
-    //Variable de la contraseña
     let pass = KeywordTests.flujoFeliz.Variables.Datos.Value("PASSWORD");
-    //variable de pagina principal
+    
     var page = Sys.Browser("*").Page(url);
+    
     
     Sys.Browser().BrowserWindow(0).Maximize();
     
@@ -15,53 +13,54 @@
     
     var count = 0;
     
-    //Ciclo de busqueda del boton login
+    //Buscar campos usuario
+    
     do{
       aqUtils.Delay(500);
       
-      var button_login = page.FindChildByXPath("//a[@id='login2']");//XPath del boton de log in
+      var button_login = page.FindChildByXPath("//a[@id='login2']");
       count++;
-      //Validacion de que se encontro el campo
+      
       if(count>5)
       {
-        throw "NO SE ENCONTRO EL CAMPO: button de login \n"+button_login;
+        throw "NO SE ENCONTRO EL CAMPO PARA INICIAR";
       }
     }while(button_login == null);
    
     button_login.Click();
-    //Ciclo de busqueda
+   
     do{
       aqUtils.Delay(500);
 
-      var campo_user = page.FindChildByXPath("//input[@id='loginusername']");//XPath del campo username
+      var campo_user = page.FindChildByXPath("//input[@id='loginusername']");
       count++;
-      //Validacion de que se encontro el campo
+      
       if(count>5)
       {
-        throw "NO SE ENCONTRO EL CAMPO: campo username \n"+campo_user;
+        throw "NO SE ENCONTRO EL CAMPO PARA INICIAR";
       }
     }while(campo_user == null );
     campo_user.SetText(user);
     
-    //Ciclo de busqueda del campo password
+ 
     do{
-      aqUtils.Delay(500);
+      aqUtils.Delay(2000);
       
-      var campo_password = page.FindChildByXPath("//input[@id='loginpassword']");//XPath del campo password
+      var campo_password = page.FindChildByXPath("//input[@id='loginpassword']");
       count++;
-      //Validacion de que se encontro el campo password
+
       if(count>5)
       {
-        throw "NO SE ENCONTRO EL CAMPO: password \n"+campo_password;
+        throw "NO SE ENCONTRO EL CAMPO PARA INICIAR";
       }
     }while(campo_password == null);
     campo_password.SetText(pass);
-    //Ciclo de busqueda de boton de confirmar login
+    
     do{
-      aqUtils.Delay(500);
-      var button_login_sec = page.FindChildByXPath("//button[contains(text(),'Log in')]");//Boton de confirmacion de log in
+      aqUtils.Delay(2000);
+      var button_login_sec = page.FindChildByXPath("//button[contains(text(),'Log in')]");
       count++;
-      //Validacion de que se encontro el campo Log in
+      
       if(count>5)
       {
         throw "NO SE ENCONTRO EL CAMPO PARA INICIAR";

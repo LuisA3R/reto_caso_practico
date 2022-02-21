@@ -58,5 +58,7 @@
  
   
   clickSingUp.Click();
+  aqUtils.Delay(2000)
+  page.Alert.Button("OK").Click();
     
 }

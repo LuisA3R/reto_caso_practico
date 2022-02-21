@@ -1,4 +1,4 @@
-﻿function Login() {
+﻿function Place_Order() {
   
   //DECLARACION DE VARIABLES
     let url = KeywordTests.flujoFeliz.Variables.Datos.Value("URL_PLACE");

@@ -1,7 +1,7 @@
 ﻿function Logout(){
   var url = KeywordTests.flujoFeliz.Variables.Datos.Value("MAIN_URL");
 
-  var page = Sys.Browser("*").Page(index);
+  var page = Sys.Browser("*").Page(url);
   Sys.Browser().BrowserWindow(0).Maximize();
   
   page.Wait();
