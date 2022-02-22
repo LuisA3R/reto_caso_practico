@@ -50,6 +50,7 @@
   page.Alert.Button("OK").Click();
   aqUtils.Delay(2000)
   home.Click()
+  aqUtils.Delay(2000)
   var monitors = page.FindChildByXPath("//a[contains(text(),'Monitors')]") //XPath para categoria de "Laptops"
   monitors.Click()
   //Ciclo de busqueda del tercer articulo

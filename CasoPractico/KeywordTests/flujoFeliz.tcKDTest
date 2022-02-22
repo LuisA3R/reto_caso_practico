@@ -42,27 +42,19 @@
 				<Data Description="Runs a script routine." TestName="start" Unit="start" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="singup" Unit="singup">
-					<CommonData Disabled="True" />
-				</Data>
+				<Data Description="Runs a script routine." TestName="singup" Unit="singup" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="login" Unit="login" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="addProducts" Unit="addProducts">
-					<CommonData Disabled="True" />
-				</Data>
+				<Data Description="Runs a script routine." TestName="addProducts" Unit="addProducts" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Cart" Unit="Cart">
-					<CommonData Disabled="True" />
-				</Data>
+				<Data Description="Runs a script routine." TestName="Cart" Unit="Cart" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Place_Order" Unit="Place_Order">
-					<CommonData Disabled="True" />
-				</Data>
+				<Data Description="Runs a script routine." TestName="Place_Order" Unit="Place_Order" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Logout" Unit="Logout" />
